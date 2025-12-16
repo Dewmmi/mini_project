@@ -1,0 +1,41 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial;
+  background: url(photos/background.jpg) center/cover no-repeat;
+  padding: 20px;
+}
+
+#movie-container {
+  max-width: 700px;
+  margin: auto;
+  background: #f5efe3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 7px 7px 0;
+}
+
+#movie-container img {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.info {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.rating {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 6px;
+}
